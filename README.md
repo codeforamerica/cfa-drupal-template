@@ -9,12 +9,20 @@ It is much more sustainable to maintain a Drush Make file for a Drupal template.
  * [Drush](http://drupal.org/project/drush)
  * [Drush Make](http://drupal.org/project/drush_make)
  
+To install:
+
+  1. Install Drush Make (see links above)
+  2. Run: `drush make https://github.com/codeforamerica/cfa-drupal-template/raw/master/cfa_base.make your_site_directory`
+  3. Go to site and choose the CfA Base install profile and install site like any other Drupal site.
+ 
 ## Approach ##
 
 The overall approach to this should be the following:
 
- * Create a Make File that includes all the parts to download
- * Create separate Profiles for different combinations of modules and features.
+ * Create a Make File that includes all the parts to download.
+ * Create separate Profile that installs modules and handles other install logic.
+ * (maybe) Allow for the install profile to make choices about what to install
+     * Note that Drupal profiles have a limitation of needing to be in their own folder and only one directory in, so there is no way for this repository to provide more than one Drupal install profile.
 
 ## Coding Standards ##
 
