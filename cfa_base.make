@@ -53,6 +53,6 @@ projects[features][subdir] = contrib
 
 ; Profiles ===========================================
 
-projects[cfa_profiles][type] = "profile"
-projects[cfa_profiles][download][type] = "git"
-projects[cfa_profiles][download][url] = "git://github.com/codeforamerica/cfa-drupal-template.git"
+projects[cfa_base][type] = "profile"
+projects[cfa_base][download][type] = "git"
+projects[cfa_base][download][url] = "git://github.com/codeforamerica/cfa-drupal-template.git"
