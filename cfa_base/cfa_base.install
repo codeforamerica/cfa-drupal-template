@@ -4,3 +4,10 @@
  * Main install file for the CfA Base Drupal profile.  No
  * code is needed at the moment.
  */
+
+/**
+ * Implements hook_install().
+ */
+function cfa_base_install() {
+  // 
+}

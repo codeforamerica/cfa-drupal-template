@@ -2,6 +2,7 @@
 name = "CfA Base"
 core = 7.x
 description = "Base profile for Code for America projects."
+files[] = cfa_base.profile
 
 ; Core
 dependencies[] = contact
@@ -14,15 +15,15 @@ dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin
-dependencies[] = openid
-dependencies[] = openidadmin
+;dependencies[] = openid
+;dependencies[] = openidadmin
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
-dependencies[] = strongarm
+;dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 
