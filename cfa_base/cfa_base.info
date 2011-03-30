@@ -1,0 +1,29 @@
+; Info file for cfa_base Drupal profile
+name = "CfA Base"
+core = 7.x
+description = "Base profile for Code for America projects."
+
+; Core
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
+
+; Features
