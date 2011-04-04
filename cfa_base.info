@@ -28,3 +28,7 @@ dependencies[] = views
 dependencies[] = views_ui
 
 ; Features
+
+
+; Custom
+dependencies[] = cfa_example

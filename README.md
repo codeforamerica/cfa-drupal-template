@@ -25,6 +25,10 @@ The overall approach to this should be the following:
  * Create separate Profile that installs modules and handles other install logic.
  * (maybe) Allow for the install profile to make choices about what to install
      * Note that Drupal profiles have a limitation of needing to be in their own folder and only one directory in, so there is no way for this repository to provide more than one Drupal install profile.
+     
+## Related ##
+
+The [cfa_example](https://github.com/codeforamerica/cfa-drupal-example-module) module is used for presentation purposes.
 
 ## Coding Standards ##
 
