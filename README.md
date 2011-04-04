@@ -11,7 +11,9 @@ It is much more sustainable to maintain a Drush Make file for a Drupal template.
  
 To install:
 
-  1. Install Drush Make (see links above)
+  1. Install Drush Make.  See Above.
+     * Use the 2.x-dev version with the patch provide [here](http://drupal.org/node/947158): http://drupal.org/files/issues/947158-recursive_0.patch
+    * This should be fixed soon.
   2. Run: `drush make https://github.com/codeforamerica/cfa-drupal-template/raw/master/cfa_base.make your_site_directory`
   3. Go to site and choose the CfA Base install profile and install site like any other Drupal site.
  
