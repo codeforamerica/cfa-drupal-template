@@ -1,0 +1,14 @@
+; CfA Example Info file
+;
+; See the following documentation on how to create .info files:
+; http://drupal.org/node/542202
+;
+; See the following documentation on general module writing:
+; http://drupal.org/node/361112
+
+name = "CfA Example"
+description = "Example module for Code for America""
+package = "Example modules""
+core = 7.x
+files[] = cfa_example.install
+files[] = cfa_example.module
