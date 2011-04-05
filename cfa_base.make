@@ -4,10 +4,12 @@
 api = 2
 core = 7.x
 
-; Modules (Contrib) ==================================
+
+; Drupal Core ========================================
 
 projects[drupal][type] = core
 projects[drupal][version] = 7.0
+
 
 ; Modules (Contrib) ==================================
 
@@ -40,6 +42,15 @@ projects[openidadmin][subdir] = contrib
 projects[features][subdir] = contrib
 ;projects[strongarm][subdir] = contrib
 
+
+; Modules (Custom) ====================================
+
+projects[cfa_example][type] = "module"
+projects[cfa_example][subdir] = custom
+projects[cfa_example][download][type] = "git"
+projects[cfa_example][download][url] = "git@github.com:codeforamerica/cfa-drupal-example-module.git"
+
+
 ; Modules (Features) =================================
 
 
@@ -47,6 +58,7 @@ projects[features][subdir] = contrib
 
 ;projects[] = tao
 ;projects[] = rubik
+
 
 ; External Libraries =================================
 

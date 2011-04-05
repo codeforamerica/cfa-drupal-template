@@ -12,6 +12,15 @@ dependencies[] = file
 dependencies[] = menu
 dependencies[] = path
 dependencies[] = taxonomy
+dependencies[] = help
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = image
+dependencies[] = comment
+dependencies[] = list
+dependencies[] = number
+dependencies[] = rdf
+dependencies[] = search
 
 ; Contrib
 dependencies[] = admin_menu
